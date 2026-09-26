@@ -1,0 +1,35 @@
+GDRE Tools v2.6.4
+Windows 10.0.26200, Intel(R) Arc(TM) 130V GPU (8GB), vulkan
+Opening file: C:/Users/sethb/Downloads/I Can Smell You from Here (Windows)/I Can Smell You from Here.pck
+Loaded 92 imported files
+Detected Engine Version: 4.7.0
+Detected Bytecode Revision: 4.5.0-stable (ebc36a7)
+Verified 205 files, no errors detected!
+Extracted 205 files, no errors detected!
+Loading resource strings, this may take a while!!
+Resource strings loaded!
+Saved project config.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     24
+Scripts not decompiled:                 0
+Imported resources for export session:  92
+Successfully converted:                 92
+Lossy:                                  22
+Rewrote metadata:                       55
+Non-importable conversions:             0
+Not converted:                          0
+Failed conversions:                     0
+-------------
+
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 4.7.0 to edit the project.
+
+*******************************************************************************
+
