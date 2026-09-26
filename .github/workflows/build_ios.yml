@@ -16,8 +16,9 @@ jobs:
     - name: Setup Godot Engine
       uses: chickensoft-games/setup-godot@v2
       with:
-        godot-version: '4.3' # Set to match your Godot engine version
+        version: '4.7' # Corrected input name
         use-dotnet: false
+        include-templates: true # Automatically downloads iOS export templates
 
     - name: Export Xcode Project from Godot
       run: |
