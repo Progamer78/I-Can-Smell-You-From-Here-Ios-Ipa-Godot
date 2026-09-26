@@ -35,7 +35,9 @@ jobs:
           -archivePath build/ios/game.xcarchive \
           CODE_SIGN_IDENTITY="" \
           CODE_SIGNING_REQUIRED=NO \
-          CODE_SIGNING_ALLOWED=NO
+          CODE_SIGNING_ALLOWED=NO \
+          CODE_SIGNING_STYLE=Manual \
+          DEVELOPMENT_TEAM=""
 
     - name: Package into .IPA
       run: |
