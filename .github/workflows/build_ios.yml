@@ -16,20 +16,20 @@ jobs:
     - name: Setup Godot Engine
       uses: chickensoft-games/setup-godot@v2
       with:
-        version: '4.7.0' # Corrected input name
+        version: '4.7.0'
         use-dotnet: false
-        include-templates: true # Automatically downloads iOS export templates
+        include-templates: true
 
     - name: Export Xcode Project from Godot
       run: |
         mkdir -p build/ios
-        godot --headless --export-release "iOS" build/ios/game.xcodeproj
+        godot --headless --export-release "I Can Smell You From Here" build/ios/game.xcodeproj
 
     - name: Build Xcode Archive (Unsigned)
       run: |
         xcodebuild archive \
           -project "build/ios/game.xcodeproj" \
-          -scheme "iOS" \
+          -scheme "game" \
           -sdk iphoneos \
           -configuration Release \
           -archivePath build/ios/game.xcarchive \
